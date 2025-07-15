@@ -1,5 +1,5 @@
 import React from 'react'
-import './flames.css'
+import './Flames.css'
 
 function Flames() {
   return (

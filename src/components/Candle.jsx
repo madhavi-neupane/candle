@@ -1,14 +1,15 @@
 import React from 'react'
 import CandleBody from './CandleBody'
 import Flames from './Flames'
+// import './CandleBody.css'
 
-function candle() {
+
+  const Candle = ({variant}) =>{
   return (
     <div className="candle">
-        <Flames/>
-        <CandleBody/>
+        <CandleBody variant={variant}/>
     </div>
   )
 }
 
-export default candle
+export default Candle
