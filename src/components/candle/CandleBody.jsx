@@ -5,7 +5,7 @@ import Flames from './Flames';
 const CandleBody = ({ variant }) => {
   return <div className={`candle-body ${variant}`}>
     <Flames/>
-            <div className="candle-thread"></div>
+      <div className="candle-thread"></div>
   </div>;
 };
 
